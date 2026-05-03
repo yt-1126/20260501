@@ -14,6 +14,4 @@ function shuffle(num) {
 shuffle(num);
 let winningNumber = num.slice(0, 6).sort((a, b) => a - b);
 
-winningNumber.sort((a, b) => a - b);
-
 console.log("今日大樂透開獎號碼為:" + winningNumber);
