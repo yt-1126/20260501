@@ -1,5 +1,5 @@
 let num = []
-for (let i = 0; i < 49; i++) {
+for (let i = 1; i <= 49; i++) {
     num.push(i);
 }
 
